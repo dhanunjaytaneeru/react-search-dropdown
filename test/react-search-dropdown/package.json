@@ -1,0 +1,56 @@
+{
+  "name": "@fliptask/react-search-dropdown",
+  "version": "1.2.1",
+  "description": "React searchable autocomplete bar. Its a replica of youtube's search, which tracks mouse cursor and arrow keys for navigate over search results",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node node-sass.js && ./node_modules/.bin/babel src --out-dir dist",
+    "watch": "npm run build -- --watch"
+  },
+  "keywords": [
+    "search",
+    "autocomplete",
+    "react",
+    "react-autocomplete"
+  ],
+  "author": "Ashish Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.6.0",
+    "node-sass": "^4.14.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "sass-loader": "^8.0.2",
+    "terser-webpack-plugin": "^3.0.6",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/SearchBox/index.js",
+  "engines": {
+    "node": ">= 8.9.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlipTask/react-search-dropdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FlipTask/react-search-dropdown/issues"
+  },
+  "homepage": "https://github.com/FlipTask/react-search-dropdown#readme"
+}
